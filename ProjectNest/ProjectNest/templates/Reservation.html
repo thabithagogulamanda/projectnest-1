@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+    <title>Menu page</title>
+</head>
+<body style="background-color:lightblue;">
+    <a style="padding:5px;float:left;color:palevioletred;" href="/specialoffers">SPECIALOFFERS</a>
+    <a style="padding:5px;float:right;color:palevioletred;"href="/Contact">CONTACT</a>
+    <a style="padding:5px;float:right;color:palevioletred;"href="/home">HOME</a>
+    <a style="padding:5px;float:right;color:palevioletred;"href="/menu">MENU</a><br><br><br>
+    <form method="POST" action="/reservation">
+        <div class="parent">
+            <div>
+                <h4>NAME:</h4>
+                <input type="text" name="name" value="" size="40px">
+            </div>
+            <div>
+                <h4>ADDRESS:</h4>
+                <input type="text" name="address" value="" size="40px"><br><br>
+            </div>
+        </div>
+    
+        <div class="a">
+            <div>
+                <h4>E-MAIL:</h4>
+                <input type="text" name="email" value="" size="40px">
+            </div>
+            <div>
+                <h4>RESTAURANT</h4>
+                <input type="text" name="restaurant" value="" size="40px"><br><br>
+            </div>
+        </div>
+    
+        <div class="b">
+            <div>
+                <h4>AREA</h4>
+                <input type="text" name="area" value="" size="40px">
+            </div>
+            <div>
+                <h4>PHONE NUMBER:</h4>
+                <input type="text" name="phone_number" value="" size="10"><br><br>
+            </div>
+        </div>
+    
+        <div class="c">
+            <div>
+                <h4>MESSAGE</h4>
+                <input type="text" name="comment" value="OPTIONAL" size="80px"><br><br>
+            </div>
+        </div>
+    
+        <div class="d">
+            <input type="submit" name="button" value="SUBMIT">
+        </div>
+    </form>  
+<style>
+    .parent{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .a{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+        
+
+    }
+    .b{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap:5px ;
+    
+
+    }
+    .d{
+        background-color: red;
+        border:none;
+        color:white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display:inline-block;
+        font-size: 16px;
+        margin:4px 2px;
+        cursor:pointer;
+        
+
+    }
+    .d{
+        width:400px;
+    
+
+    }
+    .e{
+        float:right;
+        height:auto;
+        
+
+    
+    }
+</style>
+</html>
